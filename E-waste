@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RecycleMyTech</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>RecycleMyTech</h1>
+        <nav>
+            <ul>
+                <li><a href="#listings">Listings</a></li>
+                <li><a href="#submit">Submit Your Product</a></li>
+                <li><a href="#recycling-info">Recycling Info</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="listings">
+            <h2>Available Products</h2>
+            <div id="product-list"></div>
+        </section>
+
+        <section id="submit">
+            <h2>Submit Your Product</h2>
+            <form id="product-form">
+                <input type="text" id="product-name" placeholder="Product Name" required>
+                <textarea id="product-description" placeholder="Description" required></textarea>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="recycling-info">
+            <h2>Recycling Initiatives</h2>
+            <p>Learn how to recycle your broken electronics responsibly!</p>
+            <!-- Add more information or links here -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 RecycleMyTech</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
